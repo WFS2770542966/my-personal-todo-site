@@ -5,7 +5,6 @@
 | Field         | Value            |
 |---------------|------------------|
 | Name          | Wan Fangshuo     |
-| Chinese Name  | 万方硕           |
 | Student ID    | 20242227         |
 | Hobby         | Reading          |
 | Study Approach| Machine Learning |
