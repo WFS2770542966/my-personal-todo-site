@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  my-site:
+    build: ./my-site
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  todo-app:
+    image: prologic/todo
+    ports:
+      - "8000:8000"
+    volumes:
+      - todo-data:/usr/local/go/src/todo/todo.db
+    restart: unless-stopped
+
+volumes:
+  todo-data:
